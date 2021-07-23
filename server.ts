@@ -44,6 +44,8 @@ Setting.belongsTo(User, { foreignKey: 'fkUserId', as: 'Users' });
 User.hasOne(Setting, { foreignKey: 'fkUserId', as: 'Settings' });
 
 (async () => {
+  await sequelize.sync();
+
   const promises = [];
   for (let index = 0; index < 5000; index++) {
 
