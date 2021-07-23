@@ -58,20 +58,5 @@ User.hasOne(Setting, { foreignKey: 'fkUserId', as: 'Settings' });
   // IMPORT Parse your sequalize models to cwire
   // Init the CWIRE client
   // Add cwire action to open https://google.com
-
+  console.log('Bootup...');
 }) 
-
-// CREATE SOME EXAMPLE USERS
-/* CONNECT TO CWIRE
- * 
- * Please Checkout:
- * https://docs.cwire.io/docs/quick-start
- * https://github.com/cwire-io/nodejs-sdk
- * https://cwa.cwire.io/admin/apiKeys
- * 
- * Register under https://app.cwire.io
- * Install @cwire/nodejs-sdk
- * 
- */
-
-console.log('Bootup...');
