@@ -8,12 +8,14 @@
     "start": "node --inspect -r ts-node/register server.ts"
   },
   "dependencies": {
-    "@types/faker": "5.5.5",
+    "@cwire/nodejs-sdk": "0.1.5",
     "sqlite3": "5.0.0",
+    "faker": "5.5.3",
     "sequelize": "6.3.5",
     "nodemon": "2.0.4"
   },
   "devDependencies": {
+    "@types/faker": "5.5.5",
     "ts-node": "^8.10.2",
     "typescript": "^3.9.6"
   }

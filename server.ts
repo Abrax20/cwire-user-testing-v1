@@ -1,7 +1,7 @@
 import faker from 'faker';
 import { DataTypes, Model, Sequelize } from 'sequelize';
 
-// IMPORT CWIRE here
+// IMPORT @cwire/nodejs-sdk here
 
 class User extends Model { }
 class Setting extends Model { }
@@ -59,4 +59,4 @@ User.hasOne(Setting, { foreignKey: 'fkUserId', as: 'Settings' });
   // Init the CWIRE client
   // Add cwire action to open https://google.com
   console.log('Bootup...');
-}) 
+})()

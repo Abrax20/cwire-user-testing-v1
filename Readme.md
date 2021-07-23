@@ -19,7 +19,7 @@ You want to add cwire for your analytic and customer support department. For thi
 ### 3. Checkout your own code base
 * For help please checkout the current (example)[https://github.com/cwire-io/nodejs-sdk/tree/master/examples/express-sequelize]
 * Checkout the server.ts file
-* Run ```sh yarn watch```
+* Run ```yarn watch```
 * Fix the open TODO's
 
 ### 4. Checkout your result
