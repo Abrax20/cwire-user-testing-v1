@@ -1,0 +1,20 @@
+{
+  "name": "user-testing-v1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "watch": "nodemon -e ts -w ../../ -x yarn start",
+    "start": "node --inspect -r ts-node/register server.ts"
+  },
+  "dependencies": {
+    "@types/faker": "5.5.5",
+    "sqlite3": "5.0.0",
+    "sequelize": "6.3.5",
+    "nodemon": "2.0.4"
+  },
+  "devDependencies": {
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.6"
+  }
+}

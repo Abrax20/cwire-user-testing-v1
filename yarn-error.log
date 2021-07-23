@@ -1,0 +1,49 @@
+Arguments: 
+  /Users/nexenio/.nvm/versions/node/v14.16.0/bin/node /Users/nexenio/.nvm/versions/node/v14.16.0/bin/yarn
+
+PATH: 
+  /Users/nexenio/.nvm/versions/node/v14.16.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.16.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/nexenio/Desktop/projects/cwire/user-testing-v1/package.json: Unexpected token } in JSON at position 227
+      at JSON.parse (<anonymous>)
+      at /Users/nexenio/.nvm/versions/node/v14.16.0/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/Users/nexenio/.nvm/versions/node/v14.16.0/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /Users/nexenio/.nvm/versions/node/v14.16.0/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "user-testing-v1",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+      "start": "node --inspect -r ts-node/register server.ts",
+      "watch": "nodemon -e ts -w ../../ -x yarn start",
+    },
+    "dependencies": {
+      "sqlite3": "5.0.0",
+      "sequelize": "6.3.5",
+      "nodemon": "2.0.4"
+    },
+    "devDependencies": {
+      "ts-node": "^8.10.2",
+      "typedoc": "^0.20.36"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
